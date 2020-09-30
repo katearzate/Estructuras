@@ -1,0 +1,254 @@
+64
+Se ha relacionado con los x-men?
+32
+Es mujer?
+16
+Su poder le permite teletransportarse o levitar?
+8
+Su poder modifica su anatomia?
+4
+Tiene alas?
+2
+Lanza polvo que crea alucionaciones?
+1
+Pixie
+3
+Angel Salvadore
+6
+Puede transformarse en quien desee?
+5
+Mystique
+7
+Magma
+12
+Tiene poder psiquico?
+10
+Considerada la mutante mas poderosa?
+9
+Phoenix
+11
+Psylocke
+14
+Controla el clima ?
+13
+Storm
+15
+Blink
+24
+Su poder es PRINCIPALMENTE para pelea cuerpo-cuerpo?
+20
+Su arma es de hueso que crece de ella?
+18
+Es el wolverine femenino?
+17
+X-23
+19
+Marrow
+22
+Se convierte en lobo?
+21
+Rahne Sinclair
+23
+Kitty Pride
+28
+Es rubia?
+26
+Convierte su cuerpo en diamante?
+25
+Emma Frost
+27
+Dazzler
+30
+Absorbe poderes y recuerdos?
+29
+Rogue
+31
+Domino
+48
+Pelea cuerpo a cuerpo?
+40
+Posee fuerza sobrehumana?
+36
+Es de gran tamano?
+34
+Transforma su piel en acero ?
+33
+Colossus
+35
+Juggernaut
+38
+Tiene garras retractiles?
+37
+Wolverine
+39
+Beast
+44
+Se puede teletrasnportar a si mismo?
+42
+Se limita para teletransportarse?
+41
+Nightcrawler
+43
+Azazel
+46
+Manipula la energia cinetica?
+45
+Gambit
+47
+Quicksilver
+56
+Absorbe o controla algun material?
+52
+Levita gracias a su poder?
+50
+Fue el primer mutante?
+49
+En Sabah Nur
+51
+Magneto
+54
+Convierte su cuerpo en hielo?
+53
+Iceman
+55
+Pyro
+60
+Puede volar gracias a su poder?
+58
+Tiene cuerdas vocales superhumanas?
+57
+Banshee
+59
+Angel
+62
+Emite rayos de energia de sus ojos?
+61
+Cyclops
+63
+Professor X
+96
+Es hombre?
+80
+Es de la Tierra?
+72
+Pelea PRINCIPALMENTE cuerpo-cuerpo?
+68
+Su traje cubre totalmente su rostro?
+66
+Es rey de Wakanda?
+65
+Black Panther
+67
+Ant Man
+70
+Conocido como 'el trasero de America'?
+69
+Captain America
+71
+Hulk
+76
+Tiene poderes?
+74
+Porta la gema del tiempo?
+73
+Dr Strange
+75
+Spiderman
+78
+Usa un arco/catana?
+77
+Hawkeye
+79
+Iron Man
+88
+Pertenece a Asgard?
+84
+Perdio un ojo?
+82
+Es el dios del trueno?
+81
+Thor
+83
+Odin
+86
+Es el centinela guardian?
+85
+Heimdall
+87
+Loki
+92
+Es villano?
+90
+Conocido como el devorador de mundos?
+89
+Galactus
+91
+Thanos
+94
+Es una planta?
+93
+Groot
+95
+Rocket Raccoon
+112
+Es superhumana?
+104
+Fue entrenada para ser guerrera?
+100
+Es hija adoptiva de Thanos?
+98
+Buscaba la aprovacion de Thanos?
+97
+Nebula
+99
+Gamora
+102
+Es hermana de Heimdall?
+101
+Lady Sif
+103
+Valkyrie
+108
+Es originaria de la Tierra?
+106
+Protege el universo?
+105
+Captain Marvel
+107
+Scarlet Witch
+110
+Es la diosa de la muerte?
+109
+Hela
+111
+Mantis
+120
+Maneja armas de fuego, como pistolas?
+116
+Se apellida Carter?
+114
+Vivio la 2nda Guerra Mundial?
+113
+Peggy Carter
+115
+Sharon Carter
+118
+Fue directora de SHIELD?
+117
+Maria Hill
+119
+Black Widow
+124
+Es de Wakanda?
+122
+Forma parte del ejercito?
+121
+Okoye
+123
+Shuri
+126
+Vuela con sus bio-alas?
+125
+Wasp
+127
+Pepper Potts
