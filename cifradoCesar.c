@@ -3,8 +3,6 @@
  * 
  */
 
-//chr recibe un numero en ascii y lo convierte a su caracter correspondiente
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -18,14 +16,13 @@
 const char *alfMinusculas = "abcdefghijklmnopqrstuvwxyz",
            *alfMayusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-
 void encriptar(char *mensaje, char *resultado, int saltos);
 void desencriptar(char *mensaje, char *resultado,int saltos);
-
+void imprimir();
 
 
 void encriptar(char *mensaje, char *resultado, int saltos) {
-  //printf("El mensaje encriptado es: ");
+  printf("El mensaje encriptado es: ");
   int i = 0;
   while (mensaje[i]) {
     char caracterActual = mensaje[i];
@@ -49,12 +46,13 @@ void encriptar(char *mensaje, char *resultado, int saltos) {
                              long_alfabeto];
     }
     
-    //printf("%c", (resultado[i]));
+    printf("%c", (resultado[i]));
     i++;
   }
 }
 
 void desencriptar(char *mensaje, char *resultado, int saltos) {
+  printf("El mensaje desencriptado es: ");
   int i = 0;
   while (mensaje[i]) {
     char caracterActual = mensaje[i];
@@ -73,30 +71,38 @@ void desencriptar(char *mensaje, char *resultado, int saltos) {
           posicionOriginalAscii - inicio_ascii_minusculas - saltos,
           long_alfabeto)];
     }
+    printf("%c", (resultado[i]));
     i++;
   }
 }
 
-int main(){
+void imprimir(){
 	char mensaje[max], mensajeCifrado[max], mensajeDescifrado[max];
-	int saltos;
+	int saltos, decision;
+	printf("Escribe el mensaje: \n");
+	fgets(mensaje, max, stdin);
+	mensaje[strcspn(mensaje, "\r\n")] = 0;		//strcspn: devuelve la longitud de la cadena 	
+	printf("Número de saltos: \n");
+	scanf("%d", &saltos);
+	printf("\n¿Que opcion desea realizar?\n");
+	printf("1: encriptar \n2: desencriptar\n");
+	scanf("%d", &decision);
+	switch(decision){
+		case 1: 
+			encriptar(mensaje, mensajeCifrado, saltos);
+			break;
+		case 2: 
+			desencriptar(mensaje, mensajeDescifrado, saltos);
+			break;
+		default:
+			printf("No se eligió un numero\n");
+	}
+	printf("\n\n * \n * \n *\n");
+	imprimir();
+}
+
+int main(){
 	
 	printf(" ********** CIFRADO DE CESAR ************ \n");
-	printf("Escribe el mensaje para cifrar: ");
-	fgets(mensaje, max, stdin);
-    mensaje[strcspn(mensaje, "\r\n")] = 0;		//strcspn: devuelve la longitud de la cadena 	
-	printf("Número de saltos: ");
-	scanf("%d", &saltos);
-	
-	encriptar(mensaje, mensajeCifrado, saltos);
-	printf("\nEl mensaje encriptado es: %s\n", mensajeCifrado);
-	
-    desencriptar(mensaje, mensajeDescifrado, saltos);
-    printf("\nEl mensaje desencriptado es: %s\n", mensajeDescifrado);
-	
-    
-    //printf("%d", mensaje[0]); //muestra codigo ascii
-	printf("\n * \n * \n * \n\n");
-	main();
-	
+	imprimir();
 }
