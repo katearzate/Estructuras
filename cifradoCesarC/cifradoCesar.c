@@ -99,7 +99,9 @@ void imprimir(){
 			printf("No se eligió un numero\n");
 			goto tomaDecision;
 	}
-	printf("\n\n * \n * \n *\n");
+	printf("\n\n * \n * \n *\n\n");
+	while(getchar() != '\n');
+	imprimir();
 }
 
 int main(){
